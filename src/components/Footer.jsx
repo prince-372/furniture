@@ -5,8 +5,8 @@ import { Facebook, Instagram, Pagelogo, Twitter } from './Icons'
 const Footer = () => {
     return (
         <div className='bg-[#243040] overflow-hidden'>
-            <div className='max-w-[1320px] mx-auto px-3 pt-[87px]'>
-                <div className="grid lg:grid-cols-2  pb-20 after:w-[1920px] after:h-[1px] relative after:absolute after:bottom-0 after:left-[-24%] after:right-0 after:bg-[#91979F]">
+            <div className='max-w-[1320px] mx-auto px-3 md:pt-10 pt-5 lg:pt-[87px]'>
+                <div className="grid lg:grid-cols-2 md:pb-10 pb-5  lg:pb-20 after:w-[1920px] after:h-[1px] relative after:absolute after:bottom-0 after:left-[-24%] after:right-0 after:bg-[#91979F]">
                     <div >
                         <Link to={"/"} className='flex items-center gap-2'><Pagelogo/> <p className='text-white font-bold'>FURNITURE</p></Link>
                         <p className=' text-sm font-[roboto] font-normal text-white max-w-[338px] pt-8 pb-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien.</p>

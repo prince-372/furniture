@@ -7,6 +7,9 @@ import Footer from '../components/Footer';
 import Festival from '../components/Fastival';
 import Woodensofa from '../components/Woodensofa';
 import Buy from '../components/Buy';
+import Testimonial from '../components/Testimonial';
+import BackToTop from '../components/Backtotop';
+import Loder from '../components/Loder';
 
 const Home = () => {
   return (
@@ -18,7 +21,10 @@ const Home = () => {
         <Woodensofa/>
         <Deal/>
         <Festival/>
+        <Testimonial/>
         <Footer/>
+        <BackToTop/>
+        <Loder/>
     </div>
   )
 }
