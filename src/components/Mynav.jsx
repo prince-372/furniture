@@ -49,7 +49,7 @@ const Mynav = () => {
               </Link>
             </li>
             <li>
-              <Link
+              <Link to={"/shop"}
                 onClick={CloseView}
                 href="#"
                 className="text-white text-lg font-bold font-[roboto] relative after:absolute  after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-7 after:left-0"

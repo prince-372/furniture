@@ -13,6 +13,7 @@ import Button from "./Button";
 const Shopping = () => {
   const Myarry = [
     {
+      id:1,
       img: sofa1,
       name: "Single Sofa",
       star: <Star />,
@@ -21,6 +22,7 @@ const Shopping = () => {
       btn: <Cartbtn cart="ADD TO CART" />,
     },
     {
+      id:2,
       img: sofa2,
       name: "Single Sofa",
       star: <Star />,
@@ -29,6 +31,7 @@ const Shopping = () => {
       btn: <Cartbtn cart="ADD TO CART"/>,
     },
     {
+      id:3,
       img: sofa3,
       name: "Single Sofa",
       star: <Star />,
@@ -37,6 +40,7 @@ const Shopping = () => {
       btn: <Cartbtn cart="ADD TO CART"/>,
     },
     {
+      id:4,
       img: sofa4,
       name: "Single Sofa",
       star: <Star />,
@@ -45,6 +49,7 @@ const Shopping = () => {
       btn: <Cartbtn cart="ADD TO CART"/>,
     },
     {
+      id:5,
       img: sofa5,
       name: "Single Sofa",
       star: <Star />,
@@ -53,6 +58,7 @@ const Shopping = () => {
       btn: <Cartbtn cart="ADD TO CART"/>,
     },
     {
+      id:6,
       img: sofa6,
       name: "Single Sofa",
       star: <Star />,

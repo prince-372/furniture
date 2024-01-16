@@ -161,7 +161,7 @@ const Buy = () => {
                 </div>
                 <div className="min-[890px]:w-7/12 min-[890px]:mt-0 mt-[50px] w-full relative z-[-3]">
                     <Slider ref={btn} {...settings} className="absolute right-0 z-10">{card}</Slider>
-                    <div className='w-[741px] h-[417px] bg-[#243040] absolute top-[-73%] right-0 hidden md:block'></div>
+                    <div className='w-[741px] h-[417px] bg-[#243040] absolute top-[-73%] right-0 hidden lg:block'></div>
                 </div>
             </div>
         </div>
