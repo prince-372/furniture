@@ -31,7 +31,7 @@ const Mynav = () => {
             } flex items-center lg:gap-12 gap-5  duration-300 mobileview2`}
           >
             <li>
-              <Link
+              <Link to={"/"}
                 onClick={CloseView}
                 href="#"
                 className="text-white text-lg font-bold font-[roboto] relative after:absolute  after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-7 after:left-0"
@@ -40,7 +40,7 @@ const Mynav = () => {
               </Link>
             </li>
             <li>
-              <Link
+              <Link to={"/about"}
                 onClick={CloseView}
                 href="#"
                 className="text-white  text-lg font-bold font-[roboto] relative after:absolute  after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-7 after:left-0"
@@ -58,7 +58,7 @@ const Mynav = () => {
               </Link>
             </li>
             <li>
-              <Link
+              <Link to={"/contactus"}
                 onClick={CloseView}
                 href="#"
                 className="text-white text-lg font-bold font-[roboto]   relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-7 after:left-0"
