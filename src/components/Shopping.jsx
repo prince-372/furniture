@@ -89,7 +89,7 @@ const Shopping = () => {
             <p className="text-[#243040] text-[35px] font-bold font-poppins">Our Products</p>
             <Button name="VIEW ALL PRODUCT"/>
           </div>
-    <div className=" grid  lg:grid-cols-3 md:grid-cols-2 gap-[42px]">{cardcomponent}</div>
+    <div className=" grid  lg:grid-cols-3 md:grid-cols-2 gap-[42px] items-center justify-center">{cardcomponent}</div>
     
   </div>;
 };
