@@ -69,7 +69,7 @@ const Shopping = () => {
   ];
   const cardcomponent = Myarry.map((myarry) => (
   <div className=" w-full max-w-[422px] max-h-[483px] bg-[#fff] py-5 px-6 hover:shadow-[6px_13px_38px_0px_rgba(0,0,0,0.12)] duration-300 group overflow-hidden">
-             <img className="w-full group-hover:scale-[0.9] duration-300  " src={myarry.img} alt="sofa1" />
+             <img className="w-full group-hover:scale-[1.1] duration-300  " src={myarry.img} alt="sofa1" />
              <div className=" flex justify-between pt-4">
                 <p className=" text-[20px] font-medium font-[poppins] text-black">{myarry.name}</p>
                 <span>{myarry.star}</span>
