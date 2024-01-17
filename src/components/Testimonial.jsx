@@ -70,8 +70,8 @@ const Testimonial = () => {
         },
     ]
     return (
-        <div className='mx-auto px-3 max-w-[1320px] md:pt-[30px]'>
-            <p className='text-[#BD7D41] text-lg sm:text-xl font-Poppins font-normal headingLine'>Customer Says</p>
+        <div className='mx-auto px-3 max-w-[1320px] relative'>
+            <p className='text-[#BD7D41] text-lg sm:text-xl font-Poppins font-normal headingLine relative before:absolute sm:before:w-[96px] before:h-[1px] before:bg-black before:left-0 sm:pl-[110px] before:top-[40%]'>Customer Says</p>
             <h2 className='text-[#243040] text-2xl sm:text-3xl lg:text-[35px] font-Poppins font-bold max-w-[436px] mt-3 leading-normal'>Testimonial</h2>
             <div className='mt-[51px] mb-12 sm:mb-16 md:mb-20 lg:mb-[109px]'>
                 <div>

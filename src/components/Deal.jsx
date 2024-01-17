@@ -8,12 +8,12 @@ import Slider from 'react-slick';
 import { Arrow1, Arrow2, Star } from "./Icons";
 import Cartbtn from './Cartbtn';
 const CustomPrevArrow = ({ onClick }) => (
-    <button onClick={onClick} className="w-[70px] shadow-xl h-[70px] lg:w-[99px] lg:h-[99px] rounded-full duration-300 flex items-center justify-center  bg-[#fff] absolute bottom-[-15%] left-[10%] sm:left-[30%]  lg:left-7  2xl:bottom-[38%] 2xl:left-[-10%]" > <Arrow1 /> </button>
+    <button onClick={onClick} className="w-[50px] h-[50px] sm:w-[70px] shadow-xl sm:h-[70px] lg:w-[99px] lg:h-[99px] rounded-full duration-300 flex items-center justify-center  bg-[#fff] absolute bottom-[-15%] left-[10%] sm:left-[30%]  lg:left-7  2xl:bottom-[38%] 2xl:left-[-10%] z-10" > <Arrow1 /> </button>
   );
   
   const CustomNextArrow = ({ onClick }) => (
     <button onClick={onClick}
-      className="w-[70px] h-[70px] lg:w-[99px] shadow-xl lg:h-[99px] rounded-full bg-[#fff]  flex items-center justify-center duration-300 absolute bottom-[-15%]  right-[10%] sm:right-[30%]  lg:right-6  2xl:bottom-[38%] 2xl:right-[-10%]"><Arrow2 /></button>
+      className="w-[50px] h-[50px] sm:w-[70px] sm:h-[70px] lg:w-[99px] shadow-xl lg:h-[99px] rounded-full bg-[#fff]  flex items-center justify-center duration-300 absolute bottom-[-15%]  right-[10%] sm:right-[30%]  lg:right-6  2xl:bottom-[38%] 2xl:right-[-10%] z-10"><Arrow2 /></button>
   );
 
 const Deal = () => {
@@ -100,18 +100,18 @@ const Deal = () => {
                 <span>{mycard.Rating}</span>
             </div>
             <p className=" text-lg font-normal font-[poppins] text-[#4D4D4D] pt-4">{mycard.Description}</p>
-            <div className=" flex justify-between pt-5 pb-[53px]">
-                <p className=" text-[28px] font-semibold font-[poppins] text-black ">{mycard.Price}</p>
+            <div className=" flex justify-between pt-5 pb-4 sm:pb-9 md:pb-[53px]">
+                <p className=" text-2xl sm:text-[28px] font-semibold font-[poppins] text-black ">{mycard.Price}</p>
                 <span>{mycard.AddToCart}</span>
             </div>
         </div>
     ));
     return (
         <div>
-            <div className=" max-w-[1320px] mx-auto px-3 pt-5 md:pt-12 lg:pt-24 relative">
-                <h2 className="text-[#BD7D41] text-base max-sm:text-center sm:text-xl font-normal font-[poppins] relative before:absolute sm:before:w-[96px] before:h-[1px] before:bg-black before:left-0 before:top-[45%] sm:pl-[110px]">Shopping Store</h2>
+            <div className=" max-w-[1320px] mx-auto px-3 pt-5 md:pt-12 lg:pt-24 relative max-md:mb-16">
+                <h2 className="text-[#BD7D41] text-base max-sm:text-center sm:text-xl font-normal font-[poppins] relative before:absolute sm:before:w-[96px] before:h-[1px] before:bottom-[40%] before:bg-black before:left-0 before:top-[45%] sm:pl-[110px]">Shopping Store</h2>
                 <div className=" flex justify-center pt-1 sm:justify-between sm:pb-7 lg:pb-14">
-                    <p className="text-[#243040] text-xl sm:text-[35px] font-bold max-sm:text-center font-poppins">Our Products</p>
+                    <p className="text-[#243040] text-xl sm:text-[35px] font-bold max-sm:text-center font-poppins pt-5">Latest Deal</p>
                 </div>
                 <Slider  {...settings}>{slidercard}</Slider>                
             </div>

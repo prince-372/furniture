@@ -76,7 +76,7 @@ const Shopping = () => {
              </div>
              <p className=" text-lg font-normal font-[poppins] text-[#4D4D4D] pt-4">{myarry.pera}</p>
              <div className=" flex justify-between pt-5 pb-[53px]">
-                <p className=" text-[28px] font-semibold font-[poppins] text-black ">{myarry.rate}</p>
+                <p className=" text-2xl sm:text-[28px] font-semibold font-[poppins] text-black ">{myarry.rate}</p>
                 <span>{myarry.btn}</span>
              </div>
         </div>
@@ -85,8 +85,8 @@ const Shopping = () => {
     <h2 className="text-[#BD7D41] text-xl font-normal font-[poppins] relative before:absolute before:w-[96px] before:h-[1px] before:bg-black before:left-0 before:top-[45%] pl-[110px]">
     Shopping Store
           </h2>
-          <div className=" md:flex justify-between pb-[90px]">
-            <p className="text-[#243040] text-[35px] font-bold font-poppins">Our Products</p>
+          <div className=" md:flex justify-between pb-[30px] sm:pb-[90px]">
+            <p className="text-[#243040] text-[35px] font-bold font-poppins pt-5 pb-5">Our Products</p>
             <Button name="VIEW ALL PRODUCT"/>
           </div>
     <div className=" grid  lg:grid-cols-3 md:grid-cols-2 gap-[42px] items-center justify-center">{cardcomponent}</div>

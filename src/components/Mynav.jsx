@@ -23,7 +23,7 @@ const Mynav = () => {
         <div className="flex justify-between items-center max-w-[1320px] mx-auto px-3 ">
           <div className="my-5 flex items-center">
             <Pagelogo/>
-            <h1 className=" text-white text-[33px] font-bold font-[roboto]">FURNITURE</h1>
+            <h1 className=" text-white text-2xl sm:text-[33px] font-bold font-[roboto]">FURNITURE</h1>
           </div>
           <ul
             className={` ${

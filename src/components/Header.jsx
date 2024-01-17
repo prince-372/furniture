@@ -9,7 +9,7 @@ const Header = () => {
       <Mynav />
       <div className=" mx-w-[1320px] mx-auto px-3 pt-4 sm:pt-[150px] relative">
         <div className=" max-w-[908px] mx-auto ">
-          <h2 className=" text-white font-[poppins] text-[22px] sm:text-[48px] text-center font-bold ">
+          <h2 className=" text-white font-[poppins] text-[30px] sm:text-[48px] text-center font-bold ">
             Awesome Design Best Furniture For Your Interior
           </h2>
           <p className=" text-white font-[poppins] font-normal text-[20px] text-center pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus </p>

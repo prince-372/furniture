@@ -20,38 +20,38 @@ const Footer = () => {
                         <div className="grid md:grid-cols-3 grid-cols-2  pt-5">
                             <div className=' '>
                                 <ul>
-                                    <li className='text-white font-[roboto] text-sm font-semibold pb-6 relative after:absolute after:w-[130px] after:h-[1px] after:bg-[#BD7D41] after:bottom-[22px] after:left-0'>ABOUT STORE</li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Home</a></li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Shop</a></li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Product</a></li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Festival Offer</a></li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Log In</a></li>
+                                    <li className='text-white font-[roboto] text-sm font-semibold pb-3 relative after:absolute after:w-[130px] after:h-[1px] after:bg-[#BD7D41] after:bottom-[10px] after:left-0'>ABOUT STORE</li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Home</a></li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Shop</a></li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Product</a></li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Festival Offer</a></li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Log In</a></li>
                                 </ul>
                             </div>
                             <div className=' '>
                                 <ul >
-                                    <li className='text-white font-[roboto] text-sm font-semibold pb-6 relative after:absolute after:w-[130px] after:h-[1px] after:bg-[#BD7D41] after:bottom-[22px] after:left-0'>BRANDS</li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Album</a></li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Shop</a></li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Product</a></li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Festival Offer</a></li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Log In</a></li>
+                                    <li className='text-white font-[roboto] text-sm font-semibold pb-3 relative after:absolute after:w-[130px] after:h-[1px] after:bg-[#BD7D41] after:bottom-[10px] after:left-0'>BRANDS</li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Album</a></li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Shop</a></li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Product</a></li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Festival Offer</a></li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Log In</a></li>
                                 </ul>
                             </div>
                             <div className=' '>
                                 <ul>
-                                    <li className='text-white font-[roboto] text-sm font-semibold pb-6 relative after:absolute after:w-[130px] after:h-[1px] after:bg-[#BD7D41] after:bottom-[22px] after:left-0'>CATEGORIES</li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Single</a></li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Aleeper Sofas</a></li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Accent Chairs</a></li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Festival Offer</a></li>
-                                    <li className='pb-[13px]'><a href="" className=' text-white text-sm font-normal relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Log In</a></li>
+                                    <li className='text-white font-[roboto] text-sm font-semibold pb-3 relative after:absolute after:w-[130px] after:h-[1px] after:bg-[#BD7D41] after:bottom-[10px] after:left-0'>CATEGORIES</li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Single</a></li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Aleeper Sofas</a></li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Accent Chairs</a></li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal font-[roboto] relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Festival Offer</a></li>
+                                    <li className='pb-2'><a href="" className=' text-white text-sm font-normal relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-5 after:left-0'>Log In</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <p className='text-center text-sm font-[roboto] font-normal text-white py-8'>@copyright{(new Date().getFullYear())}</p>
+                <p className='text-center text-sm font-[roboto] font-normal text-white py-[28px]'>@copyright{(new Date().getFullYear())}</p>
             </div>
         </div>
     )
