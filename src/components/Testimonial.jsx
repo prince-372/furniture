@@ -4,13 +4,13 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/thumbs';
 import { Controller, EffectFade, Thumbs } from 'swiper/modules';
-import image1 from '../assets/image/slider-img1.webp'
-import image2 from '../assets/image/slider-img2.webp'
-import image3 from '../assets/image/slider-img3.webp'
-import image4 from '../assets/image/slider-img4.webp'
-import image5 from '../assets/image/slider-img5.webp'
-import image6 from '../assets/image/slider-img6.webp'
-import image7 from '../assets/image/slider-img7.webp'
+import image1 from '../assets/image/slider-img1.webp';
+import image2 from '../assets/image/slider-img2.webp';
+import image3 from '../assets/image/slider-img3.webp';
+import image4 from '../assets/image/slider-img4.webp';
+import image5 from '../assets/image/slider-img5.webp';
+import image6 from '../assets/image/slider-img6.webp';
+import image7 from '../assets/image/slider-img7.webp';
 const Testimonial = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
     const TestimonialData = [
@@ -71,7 +71,7 @@ const Testimonial = () => {
     ]
     return (
         <div className='mx-auto px-3 max-w-[1320px] relative'>
-            <p className='text-[#BD7D41] text-lg sm:text-xl font-Poppins font-normal headingLine relative before:absolute sm:before:w-[96px] before:h-[1px] before:bg-black before:left-0 sm:pl-[110px] before:top-[40%]'>Customer Says</p>
+            <p className='text-[#BD7D41] text-lg sm:text-xl font-Poppins font-normal headingLine relative before:absolute sm:before:w-[96px] before:h-[1px] before:bg-black before:left-0 sm:pl-[110px] before:top-[40% ]'>Customer Says</p>
             <h2 className='text-[#243040] text-2xl sm:text-3xl lg:text-[35px] font-Poppins font-bold max-w-[436px] mt-3 leading-normal'>Testimonial</h2>
             <div className='mt-[51px] mb-12 sm:mb-16 md:mb-20 lg:mb-[109px]'>
                 <div>

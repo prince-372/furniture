@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Cart, Pagelogo, Search } from "./Icons";
 
@@ -17,6 +17,11 @@ const Mynav = () => {
     setfirst(false);
     document.body.classList.remove("overflow-hidden");
   }
+  const [data, setdata] = useState(false);
+  function InputImg() {
+    const newColor = data === "xyz" ? "otherColor" : "xyz";
+    setdata(newColor);
+  }
   return (
     <>
       <nav>
@@ -34,7 +39,7 @@ const Mynav = () => {
               <Link to={"/"}
                 onClick={CloseView}
                 href="#"
-                className="text-white text-lg font-bold font-[roboto] relative after:absolute  after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-7 after:left-0"
+                className="text-white text-lg font-normal hover:font-bold  font-[roboto] relative after:absolute  after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-7 after:left-0"
               >
                 HOME
               </Link>
@@ -43,7 +48,7 @@ const Mynav = () => {
               <Link to={"/about"}
                 onClick={CloseView}
                 href="#"
-                className="text-white  text-lg font-bold font-[roboto] relative after:absolute  after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-7 after:left-0"
+                className="text-white  text-lg font-normal hover:font-bold font-[roboto] relative after:absolute  after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-7 after:left-0"
               >
                 ABOUT US
               </Link>
@@ -52,7 +57,7 @@ const Mynav = () => {
               <Link to={"/shop"}
                 onClick={CloseView}
                 href="#"
-                className="text-white text-lg font-bold font-[roboto] relative after:absolute  after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-7 after:left-0"
+                className="text-white text-lg font-normal hover:font-bold font-[roboto] relative after:absolute  after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-7 after:left-0"
               >
                 SHOP
               </Link>
@@ -61,13 +66,31 @@ const Mynav = () => {
               <Link to={"/contactus"}
                 onClick={CloseView}
                 href="#"
-                className="text-white text-lg font-bold font-[roboto]   relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-7 after:left-0"
+                className="text-white text-lg font-normal hover:font-bold font-[roboto]   relative after:absolute after:bg-[#BD7D41] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-7 after:left-0"
               >
                 CONTACT US
               </Link>
             </li>
-            <li className=" flex lg:gap-12 gap-5 cursor-pointer">
-                <Search/>
+            <li className=" flex lg:gap-12 gap-5 cursor-pointer items-center">
+                <span
+                  className={`${data === "xyz"
+                      ? "right-100 z-10 px-3 border border-slate-50  bg-transparent"
+                      : "px-1 right-0"
+                    }  rounded-[8px] items-center max-[380px]:max-w-[280px]   w-full sm:static top-[35px] sm:top-[8%] md:top-0 max-[640px]:w-[300px] right-[-46%] xs450px:right-[100%] justify-between absolute  py-1 flex  lg:h-unset lg:static lg:right-0 lg:bg-transparent z-[2] transition-all ease-linear duration-300`}
+                >
+                  <input
+                    type="search"
+                    placeholder="Search"
+                    id="abc"
+                    className={`${data === "xyz"
+                        ? "max-[425px]:w-[100%] w-full duration-600"
+                        : "w-0  duration-600"
+                      } outline-none text-white bg-transparent font-medium  transition-all duration-500 `}
+                  />
+                </span>
+                <span onClick={InputImg} className="group  cursor-pointer ps-3">
+                < Search/>
+                </span>
                 <Cart/>
             </li>
             

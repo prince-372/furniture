@@ -138,13 +138,13 @@ const Buy = () => {
             <div className="max-w-[741px] max-h-[417px] h-full bg-grey-gradient w-full absolute right-0 top-[-42%] "></div>
             <div className="flex flex-wrap flex-row -mx-3">
                 <div className="min-[890px]:w-5/12 w-full px-3 flex justify-center">
-                    <div>
-                        <div className="flex items-center gap-[9px]">
-                            <div className="w-[16%] border border-black border-solid "></div>
+                    <div >
+                        <div className="flex flex-col tems-center lg:items-start gap-[9px]">
+                            <div className="w-[16%] border border-black border-solid hidden md:block   "></div>
                             <p className="text-xl text-center text-[#BD7D41] font-poppins">Shopping Store</p>
                         </div>
-                        <h2 className=" pt-[29px] text-[35px] font-poppins font-bold leading-normal max-w-[436px]">Buy trending furniture names.</h2>
-                        <p className=" pt-[19px] text-lg font-poppins leading-normal font-normal text-[#000000B2] max-w-[422px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus, urna at pulvinar porta</p>
+                        <h2 className=" pt-[29px] text-[35px] font-poppins font-bold leading-normal max-w-[436px] text-center lg:text-start">Buy trending furniture names.</h2>
+                        <p className=" pt-[19px] text-lg font-poppins leading-normal font-normal text-[#000000B2] max-w-[422px] text-center lg:text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus, urna at pulvinar porta</p>
                         <div className="flex gap-[14px] pt-[39px]">
                             <button className="w-[41px] h-[41px] rounded-[10px] bg-white flex justify-center items-center" onClick={() => btn?.current?.slickPrev()}>
                                 <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg" >

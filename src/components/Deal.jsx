@@ -93,7 +93,7 @@ const Deal = () => {
         },
     ];
     const slidercard = Mycard.map((mycard) => (
-        <div className=" w-full max-w-[422px] sm:mx-3 max-h-[483px] hover:shadow-[6px_13px_38px_0px_rgba(0,0,0,0.12)] duration-300 bg-[#fff] py-5 px-6  group overflow-hidden" key={mycard.id}>
+        <div data-aos="fade-left" className=" w-full max-w-[422px] sm:mx-3 max-h-[483px] hover:shadow-[6px_13px_38px_0px_rgba(0,0,0,0.12)] duration-300 bg-[#fff] py-5 px-6  group overflow-hidden" key={mycard.id}>
             <img className="w-full group-hover:scale-[0.9] duration-300  " src={mycard.ProductImg} alt="sofa1" />
             <div className=" flex justify-between pt-4">
                 <p className=" text-[20px] font-medium font-[poppins] text-black">{mycard.ProductName}</p>
@@ -108,8 +108,8 @@ const Deal = () => {
     ));
     return (
         <div>
-            <div className=" max-w-[1320px] mx-auto px-3 pt-5 md:pt-12 lg:pt-24 relative max-md:mb-16">
-                <h2 className="text-[#BD7D41] text-base max-sm:text-center sm:text-xl font-normal font-[poppins] relative before:absolute sm:before:w-[96px] before:h-[1px] before:bottom-[40%] before:bg-black before:left-0 before:top-[45%] sm:pl-[110px]">Shopping Store</h2>
+            <div className=" max-w-[1320px] mx-auto px-3 pt-5 md:pt-12 lg:pt-24 relative max-md:mb-16 overflow-hidden">
+                <h2 data-aos="fade-left" className="text-[#BD7D41] text-base max-sm:text-center sm:text-xl font-normal font-[poppins] relative before:absolute sm:before:w-[96px] before:h-[1px] before:bottom-[40%] before:bg-black before:left-0 before:top-[45%] sm:pl-[110px]">Shopping Store</h2>
                 <div className=" flex justify-center pt-1 sm:justify-between sm:pb-7 lg:pb-14">
                     <p className="text-[#243040] text-xl sm:text-[35px] font-bold max-sm:text-center font-poppins pt-5">Latest Deal</p>
                 </div>
