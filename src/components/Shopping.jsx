@@ -133,7 +133,8 @@ const Shopping = () => {
                         <div>
                             <div className='flex items-center justify-between'>
                                 <div onClick={closeCart} className="cursor-pointer pr-4">
-                                    <Cartbtn cart="close" />
+                                <span className="flex bg-black absolute left-[6%] duration-300 top-[5%] rotate-45 h-[2px] w-6"></span>
+                <span className="flex bg-black absolute left-[6%] duration-300 -rotate-45 h-[2px] w-6 mt-1"></span>
                                 </div>
                                 <div onClick={clearAll}>
                                     <Cartbtn cart="Clear All" />
@@ -146,7 +147,7 @@ const Shopping = () => {
                                     cart.map((el) => (
                                         <div key={el.id}>
                                             <div className='bg-white rounded-lg shadow mt-6'>
-                                                <div className='py-2 px-2 flex  xs:flex-row w-full relative'>
+                                                <div className='py-2 px-2 sm:flex  xs:flex-row w-full relative'>
                                                     <img className=' rounded-xl max-w-[200px]' src={el.img} alt="cart-items" />
                                                     <div className='flex w-full flex-col mt-3 sm:mt-0 ml-4'>
                                                         <div className='flex justify-between  items-center '>
