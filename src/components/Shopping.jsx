@@ -133,8 +133,7 @@ const Shopping = () => {
                         <div>
                             <div className='flex items-center justify-between'>
                                 <div onClick={closeCart} className="cursor-pointer pr-4">
-                                <span className="flex bg-black absolute left-[6%] duration-300 top-[5%] rotate-45 h-[2px] w-6"></span>
-                <span className="flex bg-black absolute left-[6%] duration-300 -rotate-45 h-[2px] w-6 mt-1"></span>
+                                <Cartbtn cart="clear"/>  
                                 </div>
                                 <div onClick={clearAll}>
                                     <Cartbtn cart="Clear All" />
