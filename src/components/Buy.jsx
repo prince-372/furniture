@@ -140,7 +140,7 @@ const Buy = () => {
                 <div className="min-[890px]:w-5/12 w-full px-3 flex justify-center">
                     <div >
                         <div className="flex flex-col tems-center lg:items-start gap-[9px]">
-                            <div className="w-[16%] border border-black border-solid hidden md:block   "></div>
+                            <div className="w-[16%] border border-black  border-solid hidden md:block "></div>
                             <p className="text-xl text-center text-[#BD7D41] font-poppins">Shopping Store</p>
                         </div>
                         <h2 className=" pt-[29px] text-[35px] font-poppins font-bold leading-normal max-w-[436px] text-center lg:text-start">Buy trending furniture names.</h2>

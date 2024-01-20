@@ -8,12 +8,12 @@ import Slider from 'react-slick';
 import { Arrow1, Arrow2, Star } from "./Icons";
 import Cartbtn from './Cartbtn';
 const CustomPrevArrow = ({ onClick }) => (
-    <button onClick={onClick} className="w-[50px] h-[50px] sm:w-[70px] shadow-xl sm:h-[70px] lg:w-[99px] lg:h-[99px] rounded-full duration-300 flex items-center justify-center  bg-[#fff] absolute bottom-[-15%] left-[10%] sm:left-[30%]  lg:left-7  2xl:bottom-[38%] 2xl:left-[-10%] z-10" > <Arrow1 /> </button>
+    <button onClick={onClick} className="w-[50px] h-[50px] sm:w-[70px] shadow-xl sm:h-[70px] lg:w-[99px] lg:h-[99px] rounded-full duration-300 flex items-center justify-center  bg-[#fff] absolute !bottom-[-15%] !left-[10%] sm:!left-[30%]  lg:!left-7  2xl:!bottom-[38%] 2xl:!left-[-10%] z-10" > <Arrow1 /> </button>
   );
   
   const CustomNextArrow = ({ onClick }) => (
     <button onClick={onClick}
-      className="w-[50px] h-[50px] sm:w-[70px] sm:h-[70px] lg:w-[99px] shadow-xl lg:h-[99px] rounded-full bg-[#fff]  flex items-center justify-center duration-300 absolute bottom-[-15%]  right-[10%] sm:right-[30%]  lg:right-6  2xl:bottom-[38%] 2xl:right-[-10%] z-10"><Arrow2 /></button>
+      className="w-[50px] h-[50px] sm:w-[70px] sm:h-[70px] lg:w-[99px] shadow-xl lg:h-[99px] rounded-full bg-[#fff]  flex items-center justify-center duration-300 absolute !bottom-[-15%]  !right-[10%] sm:!right-[30%]  lg:!right-6  2xl:!bottom-[38%] 2xl:!right-[-10%] z-10"><Arrow2 /></button>
   );
 
 const Deal = () => {
